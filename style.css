@@ -5,6 +5,19 @@ body {
 section {
 	margin-top: 80px;
 }
+.flexible-container {
+	display: flex;
+}
+.half-width {
+	width: 50%;
+	margin-left: 7%;
+}
+.common-color {
+	color: #f088d1 !important;
+}
+
+/* header are here */
+
 #top-margin {
 	margin-top: 50px;
 }
@@ -38,19 +51,14 @@ section {
 	border-radius: 5px;
 	font-weight: bold;
 }
-.flexible-container {
-	display: flex;
-}
-.half-width {
-	width: 50%;
-	margin-left: 7%;
-}
-.common-color {
-	color: #f088d1 !important;
-}
 .header-right img {
 	width: 80%;
 }
+
+/* header finished */
+
+/* mission starts */
+
 .mission-area h1 {
 	text-align: center;
 	font-weight: bold;
@@ -86,6 +94,10 @@ section {
 #box-bg-color3 {
 	background: #02f64226;
 }
+
+/* mission finished */
+/* develop area start */
+
 .develop-area {
 	width: 100%;
 	background: url(images/illustrators/shape-1.png);
@@ -113,6 +125,10 @@ section {
 	color: #3e3e3e;
 	margin-bottom: 40px;
 }
+
+/* develop finished */
+/* community starts */
+
 .our-community {
 	background: url(images/illustrators/shape-1.png);
 	background-position: right bottom;
@@ -138,6 +154,10 @@ section {
 .our-community-right img {
 	width: 85%;
 }
+
+/* community finished */
+/* about starts */
+
 .expart-area #about {
 	font-size: 48px;
 	text-align: center;
@@ -150,13 +170,8 @@ progress {
 	border: none;
 	width: 500px;
 	height: 5px;
-	background: crimson;
-}
-
-progress {
 	color: black;
 }
-
 progress::-webkit-progress-value {
 	background: black;
 }
@@ -201,6 +216,10 @@ progress::-moz-progress-bar {
 .expart-area-right #web7 {
 	margin-left: 384px;
 }
+
+/* about finished */
+/*  footer starts */
+
 .footer-area {
 	background: #0b0d17;
 }
@@ -218,3 +237,4 @@ progress::-moz-progress-bar {
 	font-size: 14px;
 	padding-bottom: 40px;
 }
+/*footer finished */
