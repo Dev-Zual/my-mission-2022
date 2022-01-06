@@ -1,6 +1,9 @@
 body {
 	font-family: 'Poppins', sans-serif;
 }
+section {
+	margin-top: 80px;
+}
 #top-margin {
 	margin-top: 50px;
 }
@@ -22,6 +25,10 @@ body {
 	padding-right: 19%;
 	line-height: 30px;
 }
+.header-left h4 {
+	font-weight: normal;
+	margin-top: 30px;
+}
 .btn-common {
 	padding: 10px 40px;
 	text-decoration: none;
@@ -38,7 +45,7 @@ body {
 	margin-left: 7%;
 }
 .common-color {
-	color: #0286f6 !important;
+	color: #14bafc !important;
 }
 .header-right img {
 	width: 80%;
@@ -50,10 +57,12 @@ body {
 }
 .mission-area-box {
 	width: 100%;
+}
+.mission-box {
 	margin-left: 7%;
 }
 .mission-single-box {
-	width: 24%;
+	width: 26%;
 	border-radius: 15px;
 	margin-right: 3%;
 	padding: 20px;
@@ -62,9 +71,10 @@ body {
 	font-weight: 200;
 	font-size: 16px;
 	line-height: 30px;
+	color: #424242;
 }
 .mission-single-box img {
-	width: 50%;
+	width: 30%;
 }
 #box-bg-color1 {
 	background: #a5d4ee61;
@@ -74,4 +84,27 @@ body {
 }
 #box-bg-color3 {
 	background: #02f64226;
+}
+.develop-area {
+	width: 100%;
+}
+.develop-area-left img {
+	width: 80%;
+}
+.develop-area-right {
+	margin-right: 7%;
+	margin-top: 50px;
+	margin-left: 0px !important;
+}
+.develop-area-right h1 {
+	font-weight: bold;
+	color: #333333;
+	font-size: 36px;
+	line-height: 28px;
+}
+.develop-area-right p {
+	font-weight: normal;
+	font-size: 18px;
+	color: #3e3e3e;
+	margin-bottom: 40px;
 }
