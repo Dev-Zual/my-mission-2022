@@ -87,6 +87,10 @@ section {
 }
 .develop-area {
 	width: 100%;
+	background: url(images/illustrators/shape-1.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30%;
 }
 .develop-area-left img {
 	width: 80%;
@@ -107,4 +111,29 @@ section {
 	font-size: 18px;
 	color: #3e3e3e;
 	margin-bottom: 40px;
+}
+.our-community {
+	background: url(images/illustrators/shape-1.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position-y: 200px;
+}
+.our-community-left {
+	margin-top: 45px;
+}
+.our-community-left h1 {
+	font-weight: bold;
+	color: #333333;
+	font-size: 36px;
+	line-height: 28px;
+}
+.our-community-left p {
+	font-weight: normal;
+	font-size: 18px;
+	color: #3e3e3e;
+	margin-bottom: 40px;
+}
+.our-community-right img {
+	width: 85%;
 }
